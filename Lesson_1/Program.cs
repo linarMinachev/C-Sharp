@@ -16,7 +16,11 @@ if (firstNumber > secondNumber)
 {
     Console.WriteLine(firstNumber + " > " + secondNumber);
 }
-else
+else if (secondNumber > firstNumber)
 {
     Console.WriteLine(secondNumber + " > " + firstNumber);
+}
+else
+{
+    Console.WriteLine(secondNumber + " = " + firstNumber);
 }
