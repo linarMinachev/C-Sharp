@@ -35,5 +35,3 @@ else
 {
     Console.WriteLine("Максимальное число: " + thirdNumber);
 }
-
-
