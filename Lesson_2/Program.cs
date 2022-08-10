@@ -25,8 +25,8 @@
 //     return max;
 // }
 
-int number = Console.ReadLine("Ведите трехзначное число: ");
-
+Console.WriteLine("Ведите трехзначное число: ");
+int number = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine(number);
 
 
