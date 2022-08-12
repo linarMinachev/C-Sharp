@@ -16,30 +16,29 @@ if (len != 5)
     return;
 }
 // Все что выше верно - Работает код
+// else
+// {
 
-else
-{
+// int turn = number
+//     len = len / 2;
+//     for (int i = 0; i == len; i++)
+//     {
+//         int turn = number % 10;
+//         turn += i;
+//         // toTern = "result" + "result";
+//         Console.WriteLine(turn);
+//     }
 
-int turn = number
-    len = len / 2;
-    for (int i = 0; i == len; i++)
-    {
-        int turn = number % 10;
-        turn += i;
-        // toTern = "result" + "result";
-        Console.WriteLine(turn);
-    }
+// int c = 1;
+//         for (int i = 0; i == len; i--)
+//         {
+//             c = c * 10;
+//         }
 
-int c = 1;
-        for (int i = 0; i == len; i--)
-        {
-            c = c * 10;
-        }
+//         int x = (number / c) % 10;
+//         int y = 
 
-        int x = (number / c) % 10;
-        int y = 
-
-}
+// }
 
 
 // // Вариант 2. (через строку) - вариант с проверкой на количество символов. 
