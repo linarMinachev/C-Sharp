@@ -1,0 +1,15 @@
+C:\Users\Blindstudio\Desktop\C-Sharp\C-Sharp\Extra lessons\bin\Debug\net6.0\Extra lessons.exe
+C:\Users\Blindstudio\Desktop\C-Sharp\C-Sharp\Extra lessons\bin\Debug\net6.0\Extra lessons.deps.json
+C:\Users\Blindstudio\Desktop\C-Sharp\C-Sharp\Extra lessons\bin\Debug\net6.0\Extra lessons.runtimeconfig.json
+C:\Users\Blindstudio\Desktop\C-Sharp\C-Sharp\Extra lessons\bin\Debug\net6.0\Extra lessons.dll
+C:\Users\Blindstudio\Desktop\C-Sharp\C-Sharp\Extra lessons\bin\Debug\net6.0\Extra lessons.pdb
+C:\Users\Blindstudio\Desktop\C-Sharp\C-Sharp\Extra lessons\obj\Debug\net6.0\Extra lessons.csproj.AssemblyReference.cache
+C:\Users\Blindstudio\Desktop\C-Sharp\C-Sharp\Extra lessons\obj\Debug\net6.0\Extra lessons.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Blindstudio\Desktop\C-Sharp\C-Sharp\Extra lessons\obj\Debug\net6.0\Extra lessons.AssemblyInfoInputs.cache
+C:\Users\Blindstudio\Desktop\C-Sharp\C-Sharp\Extra lessons\obj\Debug\net6.0\Extra lessons.AssemblyInfo.cs
+C:\Users\Blindstudio\Desktop\C-Sharp\C-Sharp\Extra lessons\obj\Debug\net6.0\Extra lessons.csproj.CoreCompileInputs.cache
+C:\Users\Blindstudio\Desktop\C-Sharp\C-Sharp\Extra lessons\obj\Debug\net6.0\Extra lessons.dll
+C:\Users\Blindstudio\Desktop\C-Sharp\C-Sharp\Extra lessons\obj\Debug\net6.0\refint\Extra lessons.dll
+C:\Users\Blindstudio\Desktop\C-Sharp\C-Sharp\Extra lessons\obj\Debug\net6.0\Extra lessons.pdb
+C:\Users\Blindstudio\Desktop\C-Sharp\C-Sharp\Extra lessons\obj\Debug\net6.0\Extra lessons.genruntimeconfig.cache
+C:\Users\Blindstudio\Desktop\C-Sharp\C-Sharp\Extra lessons\obj\Debug\net6.0\ref\Extra lessons.dll
