@@ -32,5 +32,5 @@ while (i < attempts)
 string ReadInput(string msg)
 {
     Console.Write(msg);
-    return Convert.ToString(Console.ReadLine());
+    return Console.ReadLine();
 }
