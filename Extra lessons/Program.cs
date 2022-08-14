@@ -5,9 +5,9 @@
 */
 
 string someMsg = ReadInput("Введите кодовое слово: ");
-string exit = "exit";
+string acsessCode = "exit";
 
-while (someMsg != exit)
+while (someMsg != acsessCode)
 {
     someMsg = ReadInput("Введите кодовое слово: ");
 }
