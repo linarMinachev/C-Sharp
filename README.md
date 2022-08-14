@@ -20,8 +20,12 @@
   task_3    // Решение задачи 3
   ...
 ```
+***
+***
+***
 
 ## [Lesson_1](https://github.com/linarMinachev/C-Sharp/blob/master/Lesson_1/Program.cs "Задачи к Семинару 1")
+
 
 ### Задача 2:
 Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее.
@@ -62,6 +66,9 @@ a = -9 b = -3 -> max = -3
 ```
 >[Решение](https://github.com/linarMinachev/C-Sharp/blob/task_4/Lesson_1/Program.cs "Решение задачи 8")
 
+***
+***
+***
 
 ## [Lesson_2](https://github.com/linarMinachev/C-Sharp/blob/master/Lesson_2/Program.cs "Задачи к Семинару 2")
 
@@ -95,6 +102,10 @@ a = -9 b = -3 -> max = -3
 ```
 >[Решение](https://github.com/linarMinachev/C-Sharp/blob/task_3/Lesson_2/Program.cs "Решение задачи 15")
 
+***
+***
+***
+
 ## [Lesson_3](https://github.com/linarMinachev/C-Sharp/blob/master/Lesson_3/Program.cs "Задачи к Семинару 3")
 
 ### Задача 19:
@@ -125,6 +136,8 @@ A (7,-5, 0); B (1,-1,9) -> 11.53
 ```
 >[Решение](https://github.com/linarMinachev/C-Sharp/blob/task_3/Lesson_3/Program.cs "Решение задачи 23")
 
+***
+***
 ***
 
 ## [Extra lessons](https://github.com/linarMinachev/C-Sharp/blob/master/Extra%20lessons/Program.cs "Дополнительные задачи")
