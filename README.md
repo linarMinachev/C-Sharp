@@ -1,11 +1,18 @@
 # Знакомство с языками программирования (семинары) `Домашние Задания`
 Под каждый урок создается отдельный проект:
 
-**Lesson_1**, **Lesson_2**, **Lesson_3** и т.д.
+**Lesson_1** - [Перейти](https://github.com/linarMinachev/C-Sharp/blob/master/README.md#lesson_1 "Перейти к уроку")
 
-Есть допольнительные задания. Задачи со знаком *
+**Lesson_2** - [Перейти](https://github.com/linarMinachev/C-Sharp/blob/master/README.md#lesson_2 "Перейти к уроку")
 
-Они находятся в проекте **Extra lessons**
+**Lesson_3** - [Перейти](https://github.com/linarMinachev/C-Sharp/blob/master/README.md#lesson_3 "Перейти к уроку")
+
+...
+
+
+Есть допольнительные задания. Задачи со знаком *. Они находятся в проекте:
+
+**Extra lessons** - [Перейти](https://github.com/linarMinachev/C-Sharp/blob/master/README.md#Extra-lessons "Перейти к уроку")
 
 ***
 
