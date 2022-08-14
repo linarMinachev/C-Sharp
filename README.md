@@ -12,7 +12,7 @@
 
 Есть допольнительные задания. Задачи со знаком *. Они находятся в проекте:
 
-**Extra lessons** - [Перейти](https://github.com/linarMinachev/C-Sharp/blob/master/README.md#Extra-lessons "Перейти к уроку")
+**Extra lessons** - [Перейти](https://github.com/linarMinachev/C-Sharp/blob/master/README.md#extra-lessons "Перейти к уроку")
 
 ***
 
