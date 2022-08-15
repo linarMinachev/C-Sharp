@@ -10,8 +10,6 @@ int numberB = REadInt("Введите число B: ");
 ToDegree(numberA, numberB);
 
 
-
-
 // Функция возведения в степень
 void ToDegree(int a, int b)
 {
