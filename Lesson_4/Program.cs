@@ -36,8 +36,8 @@ void SumNumbers(int n, int len)
     int sum = 0;
     for (int i = 1; i <= len; i++)
     {
-        sum += number % 10;
-        number /= 10;
+        sum += n % 10;
+        n /= 10;
     }
     Console.WriteLine(sum);
 }
