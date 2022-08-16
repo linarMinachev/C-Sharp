@@ -7,6 +7,8 @@
 
 **Lesson_3** - [Перейти](https://github.com/linarMinachev/C-Sharp/blob/master/README.md#lesson_3 "Перейти к уроку")
 
+**Lesson_4** - [Перейти](https://github.com/linarMinachev/C-Sharp/blob/master/README.md#lesson_4 "Перейти к уроку")
+
 ...
 
 
@@ -138,6 +140,38 @@ A (7,-5, 0); B (1,-1,9) -> 11.53
 >[Решение](https://github.com/linarMinachev/C-Sharp/blob/task_3/Lesson_3/Program.cs "Решение задачи 23")
 
 ***
+
+## [Lesson_4](https://github.com/linarMinachev/C-Sharp/blob/master/Lesson_4/Program.cs "Задачи к Семинару 4")
+
+### Задача 25:
+Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B.
+```
+Пример:
+3, 5 -> 243 (3⁵)
+2, 4 -> 16
+```
+>[Решение](https://github.com/linarMinachev/C-Sharp/blob/task_1/Lesson_4/Program.cs "Решение задачи 25")
+
+### Задача 27:
+Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
+```
+Пример:
+452 -> 11
+82 -> 10
+9012 -> 12
+```
+>[Решение](https://github.com/linarMinachev/C-Sharp/blob/task_2/Lesson_4/Program.cs "Решение задачи 27")
+
+### Задача 29:
+Напишите программу, которая задаёт массив из N элементов и выводит их на экран.
+```
+Пример:
+5 -> [1, 2, 5, 7, 19]
+3 -> [6, 1, 33]
+```
+>[Решение](https://github.com/linarMinachev/C-Sharp/blob/task_3/Lesson_4/Program.cs "Решение задачи 29")
+
+***
 ***
 ***
 
@@ -154,3 +188,11 @@ A (7,-5, 0); B (1,-1,9) -> 11.53
 Когда пользователь вводит exit программа заканчивается
 
 >[Решение](https://github.com/linarMinachev/C-Sharp/blob/task_2/Extra%20lessons/Program.cs "Решение задачи 2")
+
+### Задача 4:
+Продолжаем прокачивать приложение с командами. Добавить к программе, которая заканчивается, когда пишем exit еще 4 команды (их можно придумать самому). Например:
+SetName – Установить имя
+Help – вывести список команд
+SetPassword – Установить пароль
+Exit – выход
+WriteName – вывести имя после ввода пароля
