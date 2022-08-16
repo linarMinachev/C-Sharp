@@ -5,8 +5,8 @@
 2, 4 -> 16
 */
 
-int numberA = REadInt("Введите число A: ");
-int numberB = REadInt("Введите число B: ");
+int numberA = ReadInt("Введите число A: ");
+int numberB = ReadInt("Введите число B: ");
 ToDegree(numberA, numberB);
 
 
@@ -22,7 +22,7 @@ void ToDegree(int a, int b)
 }
 
 // Функция ввода
-int REadInt(string message)
+int ReadInt(string message)
 {
     Console.WriteLine(message);
     return Convert.ToInt32(Console.ReadLine());
