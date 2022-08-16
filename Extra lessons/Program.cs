@@ -17,51 +17,59 @@ string userPassword = null;
 
 string fromUser = ReadInput("Введите команду: ");
 
-
-while (fromUser == "exit")
+while (fromUser != "exit")
 {
-
-}
-switch (fromUser)
-{
-    case "help":
-        Commands();
-        break;
-    case "setName":
-        userName = ReadInput("Введите имя: ");
-        fromUser = ReadInput("Введите команду: ");
-        break;
-    case "setPassword":
-        userPassword = ReadInput("Создайте пароль: ");
-        fromUser = ReadInput("Введите команду: ");
-        break;
-    case "writeName":
-        string checkPass = ReadInput("Введите пароль: ");
-        if (checkPass == null)
-        {
-            if (userName == null)
+    switch (fromUser)
+    {
+        case "help":
+            Commands();
+            break;
+        case "setname":
+            userName = ReadInput("Введите имя: ");
+            Console.WriteLine("Пользователь создан!");
+            Console.WriteLine();
+            fromUser = ReadInput("Введите команду: ");
+            break;
+        case "setpassword":
+            userPassword = ReadInput("Создайте пароль: ");
+            Console.WriteLine("Пароль создан!");
+            Console.WriteLine();
+            fromUser = ReadInput("Введите команду: ");
+            break;
+        case "showdata":
+            string checkPass = ReadInput("Введите пароль: ");
+            Console.WriteLine();
+            if (checkPass == userPassword)
             {
-                Console.WriteLine("Вы не задали имя");
-                fromUser = ReadInput("Введите команду: ");
+                if (userName == null)
+                {
+                    Console.WriteLine("Вы не задали имя");
+                    Console.WriteLine("Чтобы задать имя, напишите команду - 'SetName'");
+                    Console.WriteLine();
+                    fromUser = ReadInput("Введите команду: ");
+                }
+                else
+                {
+                    Console.WriteLine($"UserName - {userName}");
+                    Console.WriteLine($"UserPassword - {userPassword}");
+                    Console.WriteLine();
+                    fromUser = ReadInput("Введите команду: ");
+                }
             }
             else
             {
-                Console.WriteLine(userName);
+                Console.WriteLine("Пароль не верный или пользователь отсутствует");
+                Console.WriteLine();
                 fromUser = ReadInput("Введите команду: ");
             }
-        }
-        else
-        {
-            Console.WriteLine("Пароль не верный");
-            fromUser = ReadInput("Введите команду: ");
-        }
-        break;
-    case "exit":
-        // string userName = ReadInput("Введите имя: ");
-        break;
-
-
+            break;
+        default:
+            Console.WriteLine($"{fromUser} - Такой команды нет");
+            Commands();
+            break;
+    }
 }
+Console.WriteLine("Программа завершена!");
 
 
 // string someMsg = ReadInput("Введите кодовое слово: ");
@@ -77,7 +85,7 @@ switch (fromUser)
 string ReadInput(string msg)
 {
     Console.Write(msg);
-    return Console.ReadLine();
+    return Console.ReadLine().ToLower();
 }
 
 // Функция: Вывод команды для отображения списка команд
@@ -91,9 +99,10 @@ void Help()
 void Commands()
 {
     Console.WriteLine();
+    Console.WriteLine("СПИСОК КОМАНД:");
     Console.WriteLine("SetName – Установить имя");
     Console.WriteLine("SetPassword – Установить пароль");
-    Console.WriteLine("WriteName – вывести имя после ввода пароля");
+    Console.WriteLine("ShowData – Вывести имя и пароль. (Нужно подтверждение паролем)");
     Console.WriteLine("Help – вывести список команд");
     Console.WriteLine("Exit – выход");
     Console.WriteLine();
