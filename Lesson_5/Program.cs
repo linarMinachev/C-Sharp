@@ -12,9 +12,9 @@ PrintArray(numbers);
 
 int sumNumbersEvenIndex = 0;
 
-for (int i = 1; i < numbers.Length; i+=2)
+for (int i = 1; i < numbers.Length; i += 2)
 {
-    sumNumbersEvenIndex = sumNumbersEvenIndex + numbers[i];
+    sumNumbersEvenIndex += numbers[i];
 }
 Console.Write(sumNumbersEvenIndex);
 
