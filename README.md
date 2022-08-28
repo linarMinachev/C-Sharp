@@ -200,4 +200,8 @@ SetPassword – Установить пароль
 Exit – выход
 WriteName – вывести имя после ввода пароля
 ```
+<<<<<<< HEAD
 >[Решение](https://github.com/linarMinachev/C-Sharp/blob/task_3/Extra%20lessons/Program.cs "Решение задачи 3")
+=======
+>[Решение](https://github.com/linarMinachev/C-Sharp/blob/task_3/Extra%20lessons/Program.cs "Решение задачи 3")
+>>>>>>> 396df0b98a5f02d9c5d11bb06d322213b105728c
